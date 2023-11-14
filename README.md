@@ -11,3 +11,16 @@ Con un if controllo che le due parole siano uguali; se lo sono resttuisco true, 
 *****
 
 Se la funzione restituisce true, stampo con un alert che le parole sono palindrome, se no il contrario.
+
+
+## Pari e dispari
+
+Chiedo all'utente tramite prompt di scegliere pari o dispari e di inserire un numero compreso da 1 a 5 e salvo entrambi i valori in due variabili. Verifico che i valori immessi rispettino le richieste se no restituisco errore.
+
+Creo una prima funzione che, dato come valore un numero, restituisca un numero random compreso tra 1 e il numero inserito.
+Creo una varibile somma e sommo il numero dell'utente con quello generato dalla funzione.
+Creo una seconda funzione che prenda in input la somma e verifichi se il numero è modulo 2 (pari). Se lo è restituisco true, se no false.
+
+Tramite un if, se la funzione è true e l'utente ha scelto pari stampo che vince l'utente.
+Se è true e l'utente ha scelto dispari stampo che vince il computer.
+Se è false e l'utente ha scelto dispari vince l'utente, se no vince il computer
